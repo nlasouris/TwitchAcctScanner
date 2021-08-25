@@ -8,4 +8,6 @@ NewAcctScanner.py polls the Twitch API to look through new usernames and flag on
 
 NewAcctSpecName.py searches through newaccts.csv for names matching a specific pattern.
 
+AcctNameScanner.py does an API query by login name, to do comprehensive searches by name pattern (e.g. finding all instances of xyz1 through xyz999)
+
 Right now this is basically a logger/flagger, so I can find accounts to report but otherwise take no action.  I'm hoping that those who need to can integrate this with their own chatbots etc., especially if they have their own Python IRC interfaces to Twitch chat, that will automate banning and blocking accounts that have dangerous (e.g. doxxing) information in the names.
